@@ -1,0 +1,55 @@
+/*
+Syntax error: File to import not found or unreadable: www/lib/ionic/scss/ionic.
+              Load path: F:/GDrive/wamp/www/ionic/myFirstIonicApp/scss
+        on line 22 of ionic.app.scss
+
+17: 
+18: // The path for our ionicons font files, relative to the built CSS in www/css
+19: $ionicons-font-path: "../lib/ionic/fonts" !default;
+20: 
+21: // Include all of Ionic
+22: @import "www/lib/ionic/scss/ionic";
+23: 
+24: //Add your own styles here?
+25: .card h2 {color: #ef4e3a;}
+
+Backtrace:
+ionic.app.scss:22
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/tree/import_node.rb:67:in `rescue in import'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/tree/import_node.rb:45:in `import'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/tree/import_node.rb:28:in `imported_file'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/tree/import_node.rb:37:in `css_import?'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `visit'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:100:in `visit'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `map'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `visit'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:100:in `visit'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:7:in `visit'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/tree/root_node.rb:20:in `render'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/engine.rb:315:in `_render'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/engine.rb:262:in `render'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/plugin/compiler.rb:201:in `each'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/plugin.rb:81:in `update_stylesheets'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/exec.rb:443:in `watch_or_update'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/exec.rb:326:in `process_result'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/exec.rb:41:in `parse'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/exec.rb:21:in `parse!'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.13/bin/scss:13:in `<top (required)>'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/bin/scss:23:in `load'
+F:/GDrive/Dropbox/RubyProjects/RailsInstaller/Ruby1.9.3/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: www/lib/ionic/scss/ionic.\A               Load path: F:/GDrive/wamp/www/ionic/myFirstIonicApp/scss\A         on line 22 of ionic.app.scss\A \A 17: \A 18: // The path for our ionicons font files, relative to the built CSS in www/css\A 19: $ionicons-font-path: \"../lib/ionic/fonts\" !default;\A 20: \A 21: // Include all of Ionic\A 22: @import \"www/lib/ionic/scss/ionic\";\A 23: \A 24: //Add your own styles here?\A 25: .card h2 {color: #ef4e3a;}"; }

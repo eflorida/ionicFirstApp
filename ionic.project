@@ -1,0 +1,8 @@
+{
+  "name": "myFirstIonicApp",
+  "app_id": "",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ]
+}

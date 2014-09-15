@@ -1,0 +1,21 @@
+/* Empty. Add your own CSS if you like */
+body, ion-view, #mainWindowContent {
+    background: #ebebeb;
+    color: #454545;
+}
+ion-nav-bar {
+    background: #ef4e3a;
+}
+.card {
+    padding: 12px;
+}
+.card h2 {
+    color: #ef4e3a;
+}
+.card h3 {
+    color: #1aacc3;
+}
+
+div.tabs {
+    color: #1aacc3;
+}
